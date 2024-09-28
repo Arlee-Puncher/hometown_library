@@ -1,7 +1,7 @@
 return {
   version = "1.10",
   luaversion = "5.1",
-  tiledversion = "1.10.2",
+  tiledversion = "1.11.0",
   class = "",
   orientation = "orthogonal",
   renderorder = "right-down",
@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 6,
-  nextobjectid = 38,
+  nextobjectid = 39,
   properties = {
     ["border"] = "leaves",
     ["light"] = true
@@ -187,25 +187,6 @@ return {
           properties = {}
         },
         {
-          id = 11,
-          name = "",
-          type = "",
-          shape = "polygon",
-          x = 1156,
-          y = 282,
-          width = 0,
-          height = 0,
-          rotation = 0,
-          visible = true,
-          polygon = {
-            { x = 0, y = 0 },
-            { x = -40, y = 40 },
-            { x = -120, y = 0 },
-            { x = 0, y = -40 }
-          },
-          properties = {}
-        },
-        {
           id = 13,
           name = "",
           type = "",
@@ -310,6 +291,19 @@ return {
           rotation = 0,
           visible = true,
           properties = {}
+        },
+        {
+          id = 38,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 1050,
+          y = 280,
+          width = 102,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
         }
       }
     },
@@ -339,7 +333,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["exit_delay"] = 0.3,
+            ["exit_delay"] = 0.2,
             ["exit_sound"] = "doorclose",
             ["facing"] = "left",
             ["map"] = "hometown/torielhouse/toriel_bathroom",
@@ -359,7 +353,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["exit_delay"] = 0.3,
+            ["exit_delay"] = 0.2,
             ["exit_sound"] = "doorclose",
             ["facing"] = "down",
             ["map"] = "hometown/krisyard",
@@ -379,7 +373,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["exit_delay"] = 0.3,
+            ["exit_delay"] = 0.2,
             ["facing"] = "down",
             ["map"] = "hometown/torielhouse/toriel_hallway",
             ["marker"] = "entryeast",

@@ -1,7 +1,7 @@
 return {
   version = "1.10",
   luaversion = "5.1",
-  tiledversion = "1.10.2",
+  tiledversion = "1.11.0",
   class = "",
   orientation = "orthogonal",
   renderorder = "right-down",
@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 30,
-  nextobjectid = 60,
+  nextobjectid = 62,
   properties = {
     ["border"] = "leaves",
     ["light"] = true,
@@ -718,7 +718,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["exit_delay"] = 0.3,
+            ["exit_delay"] = 0.2,
             ["exit_sound"] = "doorclose",
             ["facing"] = "up",
             ["map"] = "hometown/interior/qc_diner",
@@ -754,7 +754,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["exit_delay"] = 0.3,
+            ["exit_delay"] = 0.2,
             ["exit_sound"] = "doorclose",
             ["facing"] = "up",
             ["map"] = "hometown/interior/sans_store",
@@ -774,7 +774,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["exit_delay"] = 0.3,
+            ["exit_delay"] = 0.2,
             ["exit_sound"] = "doorclose",
             ["facing"] = "up",
             ["map"] = "hometown/interior/icee_room",
@@ -859,6 +859,20 @@ return {
             ["text1"] = "* (It's locked...)",
             ["text2"] = "* (...[wait:5] the town it's pretty empty today.)"
           }
+        },
+        {
+          id = 61,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 2008,
+          y = 146,
+          width = 54,
+          height = 28,
+          rotation = 0,
+          gid = 355,
+          visible = true,
+          properties = {}
         }
       }
     },

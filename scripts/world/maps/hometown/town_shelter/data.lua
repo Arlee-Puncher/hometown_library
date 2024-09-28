@@ -1,7 +1,7 @@
 return {
   version = "1.10",
   luaversion = "5.1",
-  tiledversion = "1.10.2",
+  tiledversion = "1.11.0",
   class = "",
   orientation = "orthogonal",
   renderorder = "right-down",
@@ -712,21 +712,6 @@ return {
             ["facing"] = "up",
             ["map"] = "hometown/town_church",
             ["marker"] = "entrysouth"
-          }
-        },
-        {
-          id = 27,
-          name = "npc",
-          type = "",
-          shape = "rectangle",
-          x = 296,
-          y = 2312,
-          width = 40,
-          height = 40,
-          rotation = 0,
-          visible = true,
-          properties = {
-            ["actor"] = "shelter"
           }
         },
         {

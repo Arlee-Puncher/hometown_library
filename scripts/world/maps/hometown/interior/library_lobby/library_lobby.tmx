@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="7" nextobjectid="32">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="7" nextobjectid="32">
  <editorsettings>
   <export target="data.lua" format="lua"/>
  </editorsettings>
@@ -30,7 +30,7 @@
  <objectgroup color="#ff00ff" id="4" name="objects">
   <object id="18" name="transition" x="444" y="120" width="72" height="40">
    <properties>
-    <property name="exit_delay" type="float" value="0.3"/>
+    <property name="exit_delay" type="float" value="0.2"/>
     <property name="facing" value="up"/>
     <property name="map" value="hometown/interior/library_library"/>
     <property name="marker" value="spawn"/>
@@ -39,7 +39,7 @@
   </object>
   <object id="20" name="transition" x="278" y="108" width="84" height="40">
    <properties>
-    <property name="exit_delay" type="float" value="0.3"/>
+    <property name="exit_delay" type="float" value="0.2"/>
     <property name="exit_sound" value="doorclose"/>
     <property name="facing" value="up"/>
     <property name="map" value="hometown/interior/library_computer"/>

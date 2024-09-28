@@ -1,7 +1,7 @@
 return {
   version = "1.10",
   luaversion = "5.1",
-  tiledversion = "1.10.2",
+  tiledversion = "1.11.0",
   class = "",
   orientation = "orthogonal",
   renderorder = "right-down",
@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 6,
-  nextobjectid = 14,
+  nextobjectid = 15,
   properties = {
     ["border"] = "leaves",
     ["light"] = true
@@ -194,7 +194,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["exit_delay"] = 0.3,
+            ["exit_delay"] = 0.2,
             ["exit_sound"] = "doorclose",
             ["facing"] = "right",
             ["map"] = "hometown/torielhouse/tor_house",

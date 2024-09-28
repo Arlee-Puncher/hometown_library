@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="102" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="30" nextobjectid="60">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="102" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="30" nextobjectid="62">
  <editorsettings>
   <export target="data.lua" format="lua"/>
  </editorsettings>
@@ -164,7 +164,7 @@
   </object>
   <object id="31" name="transition" x="1194" y="192" width="58" height="40">
    <properties>
-    <property name="exit_delay" type="float" value="0.3"/>
+    <property name="exit_delay" type="float" value="0.2"/>
     <property name="exit_sound" value="doorclose"/>
     <property name="facing" value="up"/>
     <property name="map" value="hometown/interior/qc_diner"/>
@@ -180,7 +180,7 @@
   </object>
   <object id="33" name="transition" x="2172" y="168" width="86" height="40">
    <properties>
-    <property name="exit_delay" type="float" value="0.3"/>
+    <property name="exit_delay" type="float" value="0.2"/>
     <property name="exit_sound" value="doorclose"/>
     <property name="facing" value="up"/>
     <property name="map" value="hometown/interior/sans_store"/>
@@ -190,7 +190,7 @@
   </object>
   <object id="35" name="transition" x="610" y="192" width="110" height="40">
    <properties>
-    <property name="exit_delay" type="float" value="0.3"/>
+    <property name="exit_delay" type="float" value="0.2"/>
     <property name="exit_sound" value="doorclose"/>
     <property name="facing" value="up"/>
     <property name="map" value="hometown/interior/icee_room"/>
@@ -226,6 +226,7 @@
     <property name="text2" value="* (...[wait:5] the town it's pretty empty today.)"/>
    </properties>
   </object>
+  <object id="61" gid="355" x="2008" y="146" width="54" height="28"/>
  </objectgroup>
  <objectgroup color="#ff00ff" id="21" name="markers">
   <object id="24" name="spawn" x="1660" y="40">

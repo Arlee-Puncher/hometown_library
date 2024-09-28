@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="35" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="38">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="35" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="39">
  <editorsettings>
   <export target="data.lua" format="lua"/>
  </editorsettings>
@@ -27,9 +27,6 @@
   <object id="10" x="1192" y="324">
    <polygon points="0,0 0,-40 -40,-40"/>
   </object>
-  <object id="11" x="1156" y="282">
-   <polygon points="0,0 -40,40 -120,0 0,-40"/>
-  </object>
   <object id="13" x="1270" y="402">
    <polygon points="0,0 0,-40 -40,-40"/>
   </object>
@@ -43,11 +40,12 @@
   <object id="20" x="158" y="400" width="1112" height="40"/>
   <object id="28" x="418" y="384" width="308" height="16"/>
   <object id="29" x="854" y="382" width="282" height="18"/>
+  <object id="38" x="1050" y="280" width="102" height="40"/>
  </objectgroup>
  <objectgroup color="#ff00ff" id="4" name="objects">
   <object id="17" name="transition" x="166" y="342" width="40" height="40">
    <properties>
-    <property name="exit_delay" type="float" value="0.3"/>
+    <property name="exit_delay" type="float" value="0.2"/>
     <property name="exit_sound" value="doorclose"/>
     <property name="facing" value="left"/>
     <property name="map" value="hometown/torielhouse/toriel_bathroom"/>
@@ -57,7 +55,7 @@
   </object>
   <object id="18" name="transition" x="1192" y="320" width="40" height="42">
    <properties>
-    <property name="exit_delay" type="float" value="0.3"/>
+    <property name="exit_delay" type="float" value="0.2"/>
     <property name="exit_sound" value="doorclose"/>
     <property name="facing" value="down"/>
     <property name="map" value="hometown/krisyard"/>
@@ -67,7 +65,7 @@
   </object>
   <object id="19" name="transition" x="276" y="154" width="66" height="36">
    <properties>
-    <property name="exit_delay" type="float" value="0.3"/>
+    <property name="exit_delay" type="float" value="0.2"/>
     <property name="facing" value="down"/>
     <property name="map" value="hometown/torielhouse/toriel_hallway"/>
     <property name="marker" value="entryeast"/>

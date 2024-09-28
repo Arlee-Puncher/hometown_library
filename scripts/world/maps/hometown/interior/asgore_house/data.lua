@@ -1,7 +1,7 @@
 return {
   version = "1.10",
   luaversion = "5.1",
-  tiledversion = "1.10.2",
+  tiledversion = "1.11.0",
   class = "",
   orientation = "orthogonal",
   renderorder = "right-down",
@@ -483,7 +483,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["exit_delay"] = 0.3,
+            ["exit_delay"] = 0.2,
             ["facing"] = "down",
             ["map"] = "hometown/interior/flower_shop",
             ["marker"] = "entrywest",
@@ -502,7 +502,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["exit_delay"] = 0.3,
+            ["exit_delay"] = 0.2,
             ["facing"] = "down",
             ["map"] = "hometown/interior/flower_shop",
             ["marker"] = "entryeast",

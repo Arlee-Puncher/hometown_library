@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="66" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="22" nextobjectid="49">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="66" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="22" nextobjectid="49">
  <editorsettings>
   <export target="data.lua" format="lua"/>
  </editorsettings>
@@ -174,7 +174,7 @@
   </object>
   <object id="27" name="transition" x="1202" y="176" width="80" height="40">
    <properties>
-    <property name="exit_delay" type="float" value="0.3"/>
+    <property name="exit_delay" type="float" value="0.2"/>
     <property name="exit_sound" value="doorclose"/>
     <property name="facing" value="up"/>
     <property name="map" value="hometown/interior/hospital_lobby"/>
@@ -184,7 +184,7 @@
   </object>
   <object id="30" name="transition" x="486" y="170" width="60" height="40">
    <properties>
-    <property name="exit_delay" type="float" value="0.3"/>
+    <property name="exit_delay" type="float" value="0.2"/>
     <property name="exit_sound" value="doorclose"/>
     <property name="facing" value="up"/>
     <property name="map" value="hometown/interior/police_station"/>
@@ -194,7 +194,7 @@
   </object>
   <object id="31" name="transition" x="2008" y="174" width="60" height="40">
    <properties>
-    <property name="exit_delay" type="float" value="0.3"/>
+    <property name="exit_delay" type="float" value="0.2"/>
     <property name="exit_sound" value="doorclose"/>
     <property name="facing" value="up"/>
     <property name="map" value="hometown/interior/library_lobby"/>

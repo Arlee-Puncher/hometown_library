@@ -1,7 +1,7 @@
 return {
   version = "1.10",
   luaversion = "5.1",
-  tiledversion = "1.10.2",
+  tiledversion = "1.11.0",
   class = "",
   orientation = "orthogonal",
   renderorder = "right-down",
@@ -651,7 +651,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["exit_delay"] = 0.3,
+            ["exit_delay"] = 0.2,
             ["exit_sound"] = "doorclose",
             ["facing"] = "up",
             ["map"] = "hometown/interior/hospital_lobby",
@@ -671,7 +671,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["exit_delay"] = 0.3,
+            ["exit_delay"] = 0.2,
             ["exit_sound"] = "doorclose",
             ["facing"] = "up",
             ["map"] = "hometown/interior/police_station",
@@ -691,7 +691,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["exit_delay"] = 0.3,
+            ["exit_delay"] = 0.2,
             ["exit_sound"] = "doorclose",
             ["facing"] = "up",
             ["map"] = "hometown/interior/library_lobby",

@@ -1,7 +1,7 @@
 return {
   version = "1.10",
   luaversion = "5.1",
-  tiledversion = "1.10.2",
+  tiledversion = "1.11.0",
   name = "hometownobjects",
   class = "",
   tilewidth = 830,
@@ -23,7 +23,7 @@ return {
   },
   properties = {},
   wangsets = {},
-  tilecount = 64,
+  tilecount = 66,
   tiles = {
     {
       id = 1,
@@ -225,7 +225,7 @@ return {
     },
     {
       id = 35,
-      image = "../../../assets/sprites/tilesets/objects/kris_bedsheetfull.png",
+      image = "../../../assets/sprites/tilesets/objects/kris_bedsheet_full.png",
       width = 92,
       height = 76
     },
@@ -408,6 +408,28 @@ return {
       image = "../../../assets/sprites/world/maps/hometown/shelter.png",
       width = 418,
       height = 240
+    },
+    {
+      id = 68,
+      image = "../../../assets/sprites/tilesets/objects/sans_open_off.png",
+      width = 54,
+      height = 28,
+      animation = {
+        {
+          tileid = 68,
+          duration = 750
+        },
+        {
+          tileid = 69,
+          duration = 750
+        }
+      }
+    },
+    {
+      id = 69,
+      image = "../../../assets/sprites/tilesets/objects/sans_open_on.png",
+      width = 54,
+      height = 28
     }
   }
 }
